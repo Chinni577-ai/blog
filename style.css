@@ -1,0 +1,109 @@
+body {
+  background-color: #fff8e1;
+  margin: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+#stick {
+  position: sticky;
+  top: 0;
+}
+
+
+/* Headings */
+h1 {
+  color:orange;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  color:orange ;
+  font-family: 'Verdana', sans-serif;
+}
+
+h3 {
+  color: orangered;
+  font-family: 'Georgia', serif;
+}
+
+/* Paragraph */
+p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Ordered List */
+ol {
+  color: darkgreen;
+}
+
+/* Unordered List */
+ul {
+  color: darkblue;
+  list-style-type: square;
+}
+
+/* Marquee Text */
+#marquee-text {
+  font-weight: bold;
+  color: purple;
+}
+
+/* Highlighted Text */
+.highlight {
+  background-color: #fff3e0;
+  font-weight: bold;
+  color: #d84315;
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+th,
+td {
+  border: 2px solid orange;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #ffcc80;
+}
+
+/* Images */
+img {
+  border-radius: 8px;
+}
+
+/* Center video and audio */
+video{
+  display: block;
+  margin: 0 auto;
+}
+/* Firecracker Gallery Images */
+.cracker-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.cracker-gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(255, 165, 0, 0.7);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.cracker-gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 69, 0, 0.9);
+}
